@@ -2,6 +2,7 @@
 
 import pickle
 import pandas as pd
+import pytest
 
 from sklearn.metrics import accuracy_score
 
