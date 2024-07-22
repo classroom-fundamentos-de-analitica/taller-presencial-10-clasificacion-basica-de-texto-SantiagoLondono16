@@ -22,5 +22,4 @@ accuracy = accuracy_score(
     y_true=dataframe.target,
     y_pred=clf.predict(vectorizer.transform(dataframe.phrase)),
 )
-def test1 ():
-    assert accuracy > 0.854
+assert accuracy > 0.854
